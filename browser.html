@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        width: 170px;
+        height: 100px;
+        background-color: rgb(165, 42, 157);
+        }
+        button:active{
+            background-color: rgb(204, 255, 0);
+        }
+</style>
+
+<body>
+    <button onclick="fun()">Click</button>
+    <script>
+        function fun(){
+            let a=window.open("https://www.google.com",width=200,height=400);
+            a.resizeTo(400,400)
+        }
+    </script>
+    
+</body>
+</html>
